@@ -1,0 +1,32 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+# NEVER commit your real .env — it contains your bot token
+.env
+
+# ── Database ──────────────────────────────────────────────────────────────────
+database/*.db
+database/*.db-shm
+database/*.db-wal
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Exports (migration result files) ─────────────────────────────────────────
+exports/
+
+# ── OS / Editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Build / Temp ──────────────────────────────────────────────────────────────
+dist/
+tmp/
+package-lock.json
