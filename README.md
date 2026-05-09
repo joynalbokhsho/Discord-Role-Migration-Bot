@@ -52,8 +52,8 @@
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/discord-role-migration.git
-cd discord-role-migration
+git clone https://github.com/joynalbokhsho/Discord-Role-Migration-Bot.git
+cd Discord-Role-Migration-Bot
 ```
 
 ### 3. Install dependencies
@@ -190,7 +190,7 @@ Discord.js automatically handles rate limit responses (waits and retries), so ev
 ## 📁 Project Structure
 
 ```
-discord-role-migration/
+discord-role-migration-bot/
 ├── commands/
 │   ├── migrateRole.js          # /migrate-role
 │   ├── migrationStatus.js      # /migration-status
